@@ -7,7 +7,7 @@
 
 ```sh
 Username: pi
-Password: Raspberry
+Password: raspberry
 ```
 
 **make an empty directory in the $HOME directory and move into it by doing:**
@@ -25,7 +25,7 @@ download the repository which is: https://github.com/svakula/SenseHatLogger.git 
 
   
 ```sh
-git clone https://github.com/svakula/SenseHatLogger.git
+>git clone https://github.com/svakula/SenseHatLogger.git
 ```
 
 **Setting up the Program**
@@ -37,7 +37,7 @@ open terminal and type this in:
   
 ```sh
 
-sudo nano /ect/rc.local
+>sudo nano /ect/rc.local
 
 ```
 
@@ -80,18 +80,18 @@ cd /home/pi su pi -c "SenseHatDataWrite.py" &
  
 ```sh
 
-sudo shutdown now
+>sudo shutdown now
 
 ```
-This shuts off the Raspberry pi and it is now ready to log data in its next bootup
+-This shuts off the Raspberry pi and it is now ready to log data in its next bootup
   
 
-when you want to log data then plug it into the car's 12v connector
+-when you want to log data then plug it into the car's 12v connector
 
   
   
 
-All logs are written to logs.csv which should be in the same directory as the main files
+-All logs are written to logs.csv which should be in the same directory as the main files
 
   
 
