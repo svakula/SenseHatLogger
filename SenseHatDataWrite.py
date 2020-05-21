@@ -1,16 +1,16 @@
 ## Libs/Deps ##
 
-from sense_hat import sense_hat
+from sense_hat import sense_hat ##import all packages and libraries that are required for the code to work##
 from datetime import datetime
 
 ## Logger Settings ##
 
-FILENAME = "logs.csv"
+FILENAME = "logs.csv" ##define globals and paths##
 WRITE_FREQUENCY = 50
 
 ## Function and Loggers ##
 
-def file_setup("logs.csv"):
+def file_setup("logs.csv"): ##defines how the file headings and setup will be##
     header = =["temp_h","temp_p","humidity","pressure","pitch","roll","yaw","mag_x","mag_y","mag_z","accel_x","accel_y","accel_z","gyro_x","gyro_y","gyro_z","timestamp"]
 
     with open(filename,"w") as f:
