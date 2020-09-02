@@ -37,7 +37,7 @@ open terminal and type this in:
   
 ```sh
 
->sudo nano /ect/rc.local
+>sudo nano /etc/rc.local
 
 ```
 
